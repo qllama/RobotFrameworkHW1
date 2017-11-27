@@ -1,0 +1,15 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Keywords ***
+Prepare Browser
+    [Arguments]    ${url}    ${browser}	${logoToCheckPageBy}
+    Open Browser    ${url}    ${browser}
+    Maximize Browser Window
+	Wait Until Element Is Visible    ${logoToCheckPageBy}
+
+Get Search Results
+	[Arguments]	${lookingFor}
+    Input Text    ${searchField}	${lookingFor}
+    Press Key    ${searchField}    \\13
+	

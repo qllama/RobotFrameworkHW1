@@ -1,0 +1,6 @@
+﻿*** Variables ***
+${lookingFor}	VŠE
+${searchField}	id=lst-ib
+${logoToCheckPageBy}	id=hplogo
+${destinationPage}	VŠE: Vysoká škola ekonomická v Praze
+${titleToCheckSearchResultBy}	Vysoká škola ekonomická v Praze | VŠE

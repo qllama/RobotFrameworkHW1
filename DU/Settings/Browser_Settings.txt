@@ -1,0 +1,4 @@
+*** Variables ***
+${url}            https://www.google.cz
+${browser}        chrome
+${logoToCheckPageBy}	id=hplogo
